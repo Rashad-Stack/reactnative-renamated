@@ -1,7 +1,7 @@
 import React from "react";
 
-import { rotation, Pangesture } from "./components";
+import { rotation, Pangesture, Interpolate } from "./components";
 
 export default function App() {
-  return <Pangesture />;
+  return <Interpolate />;
 }
